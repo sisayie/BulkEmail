@@ -4,7 +4,7 @@ with open("README.md", 'r') as f:
     long_description = f.read()
 
 setup(
-   name='bulk-email',
+   name='BulkEmail',
    version='1.0',
    description='Bulk Email Automation',
    license="MIT",
@@ -12,6 +12,6 @@ setup(
    author='Sisay Chala',
    author_email='sisayie@gmail.com',
    url="https://github.com/sisayie/BulkEmail",
-   packages=['bulk-email'],
+   packages=['BulkEmail'],
    install_requires=['smtplib', 'ssl'], #external packages as dependencies
 )
