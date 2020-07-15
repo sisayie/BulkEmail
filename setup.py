@@ -13,5 +13,5 @@ setup(
    author_email='sisayie@gmail.com',
    url="https://github.com/sisayie/BulkEmail",
    #packages=['BulkEmail'],
-   install_requires=['smtplib', 'ssl'], #external packages as dependencies
+   #install_requires=['smtplib', 'ssl'], #external packages as dependencies
 )
