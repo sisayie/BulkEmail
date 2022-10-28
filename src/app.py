@@ -10,11 +10,11 @@ def main(argv):
    try:
       opts, args = getopt.getopt(argv,"hc:a:m:",["config=", "address=","message="]) #getopt.getopt(args, options, [long_options])
    except getopt.GetoptError:
-      print ('app.py ->e -c <config> -a <addresses> -m <message>')
+      print ('app.py -c <config> -a <addresses> -m <message>')
       sys.exit(2)
    for opt, arg in opts:
       if opt == '-h':
-         print ('app.py ->h -c <config> -a <addresses> -m <message>')
+         print ('app.py -c <config> -a <addresses> -m <message>')
          sys.exit()
       elif opt in ("-c", "--config"):
          configfile = arg
